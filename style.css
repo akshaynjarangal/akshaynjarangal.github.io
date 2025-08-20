@@ -1,0 +1,78 @@
+* {
+  margin: 0em;
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+}
+.header {
+  position: fixed;
+	z-index: 1000;
+  width: 100%; 
+	background: transparent;
+	padding: 32px;
+}
+.active {
+  background-color: white;
+}
+
+
+/* @media screen and (max-width: 768px) {
+  header {
+    padding: 16 16 16;
+  }
+} */
+
+.logo {
+  height: 32px;
+  width: 63px;
+  background-image: url("assets/images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.container{
+  background-image: linear-gradient(to bottom, #D7EEFE, #F9FAFE);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 100 80 32 80;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.img {
+  background-image: url("assets/images/IMG_3583.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+
+.sub{
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.firstname{
+    font-weight: 600;
+    font-size: 4em;
+}
+.lastname{
+    font-weight: 200;
+    font-size: 4em;
+}
